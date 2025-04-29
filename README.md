@@ -44,7 +44,7 @@ Créer un fichier .env à la racine du projet
 ```dotenv
 DB_HOST=localhost
 DB_USER=root
-DB_PASSWORD="tonMotDePasse#avec#"
+DB_PWD="tonMotDePasse#avec#"
 DB_DATABASE=esgeats
 PORT=3000
 ```
@@ -82,7 +82,7 @@ Un fichier vercel.json est prêt pour le déploiement.
 Variables d'environnement à configurer sur Vercel :
 - DB_HOST
 - DB_USER
-- DB_PASSWORD
+- DB_PWD
 - DB_DATABASE
 
 ---
